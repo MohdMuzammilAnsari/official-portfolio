@@ -195,3 +195,39 @@ nav img{
 
 .code-key{ color: #ff7edb; }
 .code-var{ color: #ffd866; }
+
+.cv-buttons{
+    /* border-radius: 30px;
+    background-color: #2d8cf0; */
+    display: flex;
+    gap: 30px;
+    padding: 20px 25px;
+    flex-wrap: wrap;
+}
+
+.btn{
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.95em;
+    font-weight: 600;
+    animation: all 2s ease;
+    /* background-color: #000000; */
+}
+.btn-primary{
+    background-color: #2d8cf0;
+    color: #fff;
+}
+.btn-primary:hover{
+    background-color: #1c6fd1;
+    transform: translateY(-2px) translateX(2px);
+}
+.btn-outline{
+    background-color: transparent;
+    color: #2d8cf0;
+    border: 1.5px solid #2d8cf0;    
+}
+.btn-outline:hover{
+    background-color: rgba(45, 140, 240, 0.3);
+    transform: translateY(-2px) translateX(2px);
+}
