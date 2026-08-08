@@ -258,3 +258,23 @@ nav img{
 #intro p:last-child{
     margin-bottom: 0;
 }
+.github-btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #111;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.github-btn:hover{
+    background-color: #2d8cf0;
+    color: #fff;
+    transform: translateY(-2px);
+}
