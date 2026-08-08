@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>personal portfolio - from scratch</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header id="header">
         <div class="container">
             <nav>
-            <a href="#" class="logo-link">
-                <img src="images/logo.png" alt="logo">
-            </a>
+                <a href="#" class="logo-link">
+                    <img src="images/logo.png" alt="logo">
+                </a>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#">Education</a></li>
                     <li><a href="#">Skills</a></li>
                     <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li> 
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,39 +34,72 @@
 
     <!-- From here the about section has began -->
     <section id="about" class="about">
-    <div class="container about-container">
-        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+        <div class="container about-container">
+            <h2 class="section-about">About <span class="highlight">Me</span></h2>
 
-        <div class="about-content">
-            <div class="about-image">
-                <img src="images/about.png" alt="Muzammil">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about.png" alt="Muzammil">
+                </div>
+
+                <div class="about-card">
+                    <div class="card-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="card-title">about-me.js</span>
+                    </div>
+                    <div class="card-body">
+                        <p><span class="code-key">const</span> <span class="code-var">developer</span> = {</p>
+                        <p class="indent"><span class="code-key">name:</span> "Mohd Muzammil Ansari",</p>
+                        <p class="indent"><span class="code-key">role:</span> "MERN Stack Developer","Java application
+                            Developement",</p>
+                        <p class="indent"><span class="code-key">based_in:</span> "India",</p>
+                        <p class="indent"><span class="code-key">passion:</span> "Building clean, functional web apps"
+                        </p>
+                        <p class="indent"><span class="code-key">hobbies</span> "Gardening, football, Running, binge
+                            watching, etc "</p>
+                        <p>};</p>
+                        <div class="cv-buttons">
+                            <a href="files/cv.pdf" download class="btn btn-cv">Download CV</a>
+                            <a href="files/Resume.pdf" download class="btn btn-resume">Download Resume</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div id="intro">
+                <div id="intro">
+                    <h2 class="section-intro">Brief<span class="highlight">ing</span></h2>
 
-            <div class="about-card">
-                <div class="card-header">
-                    <span class="dot red"></span>
-                    <span class="dot yellow"></span>
-                    <span class="dot green"></span>
-                    <span class="card-title">about-me.js</span>
-                </div>
-                <div class="card-body">
-                    <p><span class="code-key">const</span> <span class="code-var">developer</span> = {</p>
-                    <p class="indent"><span class="code-key">name:</span> "Mohd Muzammil Ansari",</p>
-                    <p class="indent"><span class="code-key">role:</span> "MERN Stack Developer","Java application Developement",</p>
-                    <p class="indent"><span class="code-key">based_in:</span> "India",</p>
-                    <p class="indent"><span class="code-key">passion:</span> "Building clean, functional web apps"</p>
-                    <p class="indent"><span class="code-key">hobbies</span> "Gardening, football, Running, binge watching, etc "</p>
-                    <p>};</p>
-                    <div class="cv-buttons">
-                    <a href="files/cv.pdf" download class="btn btn-cv">Download CV</a>
-                    <a href="files/Resume.pdf" download class="btn btn-resume">Download Resume</a>
-                </div>
+                    <p>Hi, I'm <span class="highlight">Mohd Muzammil Ansari</span>, from Bareilly, Uttar Pradesh, India.
+                        I'm currently in my 4th year of B.Tech in Computer Science and Engineering at Invertis
+                        University. I completed my 10th standard at Army Public School, Bareilly Cantt., and my 12th at
+                        Woodrow Senior Secondary School, Bareilly.</p>
+
+                    <p>I have hands-on experience with <span class="highlight">HTML, CSS, JavaScript, Node.js,
+                            Express.js, and MongoDB</span>, along with a working knowledge of Java, C, C++, and Python.
+                        I'm comfortable using tools like VS Code, Git & GitHub, Postman, MongoDB Compass, and ImageKit.
+                    </p>
+
+                    <p>Using these skills, I built an <span class="highlight">Event Booking and Management system</span>
+                        for my family's business — users can enter event details such as name, date, and amount paid,
+                        and the system automatically generates an invoice page with all the relevant details, which can
+                        then be downloaded directly.</p>
+
+                    <p>I also built an <span class="highlight">Invoice Generator</span> for a construction materials
+                        shop, which sends invoices directly to customers via WhatsApp.</p>
+
+                    <p>I'm excited about the opportunity to gain real industry experience, and I believe my skills in
+                        full-stack development, Java application development, and related technical areas make me a
+                        strong fit for such a role.</p>
+
+                    <p>Feel free to explore my GitHub account below.</p>
+                    <p>Thank you</p>
                 </div>
             </div>
         </div>
-        
-       </div>
     </section>
     <script src="script.js"></script>
 </body>
+
 </html>

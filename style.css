@@ -117,7 +117,7 @@ nav img{
     padding: 0 5%;
 }
 
-.section-title{
+.section-about{
     border-radius: 30px;
     background-color: yellowgreen;
     font-size: 2.2rem;
@@ -230,4 +230,31 @@ nav img{
 .btn-resume:hover{
     background-color: rgba(45, 140, 240, 0.3);
     transform: translateY(-2px) translateX(2px);
+}
+/* section intruction starts from here */
+#intro{
+    background: #111;
+    border: 1px solid #222;
+    border-left: 4px solid #2d8cf0;
+    border-radius: 12px;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+#intro .section-intro{
+    text-align: left;
+    background: none;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+#intro p{
+    font-size: 1rem;
+    line-height: 1.9;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+#intro p:last-child{
+    margin-bottom: 0;
 }
